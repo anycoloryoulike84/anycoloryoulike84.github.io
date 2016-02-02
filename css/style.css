@@ -233,7 +233,12 @@ nav::after {
    display: inline;
   }
 
-
+ .fa {
+    float: left;
+     color: black;
+    cursor: pointer;
+    visibility: hidden;
+  }
 
 
 /* Media Queries -------------------- */
@@ -249,6 +254,7 @@ nav::after {
   }
   
 
+
 }
 
 @media (max-width: 768px) {
@@ -257,6 +263,15 @@ nav::after {
     width: 100%;
     padding: 20px;
     border-top: none;
+  }
+   .fa {
+     visibility: initial;
+  margin-bottom: 1em;
+
+  }
+  #header li a {
+    display: none;
+
   }
 
  .slides img, .slides {
@@ -294,13 +309,7 @@ nav::after {
     padding: 20px 0;
   }
 
-   .fa-bars {
-    color: black;
-    float: left;
-     color: black;
-    cursor: pointer;
-    display: inline-block;
-  }
+  
 
   #header li a {
     display: ;

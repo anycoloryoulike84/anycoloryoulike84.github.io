@@ -13,6 +13,7 @@
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> 
     
 
+
   </head>
   <body> 
 
@@ -20,7 +21,7 @@
     <header id="top" class="main-header ">
 
  <div id="header" class='stick-head'>
-  <i class="fa fa-bars fa-3x"></i>
+  <i class="fa fa-bars fa-3x" id='fa-bar-menu'></i>
 
       <ul>
         <li><a href="../#">Home</a></li>
@@ -175,11 +176,14 @@ $(document).ready(function(){
 
     $('.slides').slick();
 
-$('.fa-bars').on('click', function(){
+              
+      $(".fa-bars").click(function(){
+          $("#header li a").toggle(200);
+          
 
-  $('#header li a').toggleClass('mobile-menu');
+      });
 
-})
+
 });
 
 

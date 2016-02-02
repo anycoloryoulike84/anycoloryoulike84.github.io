@@ -20,7 +20,8 @@
     <header id="top" class="main-header ">
 
  <div id="header" class='stick-head'>
-  <i class="fa fa-bars fa-3x" id='fa-bar-menu' style='display:none'></i>
+  <i class="fa fa-bars fa-3x" id='fa-bar-menu'></i>
+
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="gallery.html">Photo Gallery</a></li>
@@ -151,9 +152,10 @@ $(document).ready(function(){
     });
 
 
-$('.fa-bars').on('click', function(){
 
-  $('#header li a').addClass('mobile-menu');
+$(".fa-bars").click(function(){
+    $("#header li a").toggle(200);
+    
 
 });
 
