@@ -20,65 +20,83 @@
     <header id="top" class="main-header ">
 
  <div id="header" class='stick-head'>
-  <i class="fa fa-bars fa-3x" id='fa-bar-menu' style='display:none'></i>
+  <i class="fa fa-bars fa-3x"></i>
+
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="../#">Home</a></li>
         <li><a href="gallery.html">Photo Gallery</a></li>
-        <li><a href="#careers">Careers</a></li>
-        <li><a href="#contactnow">Contact Us</a></li>
+        <li><a href="../#careers">Careers</a></li>
+        <li><a href="../#contactnow">Contact Us</a></li>
       </ul>
     </div>
     
 
       <span class="title"></span>
-      <h1>Executive Men&apos;s Salon </h1><h3 id='side-banner'>Est. 2003<br>Oakland, CA</h3>
 
 
-      <img class="arrow" src="img/arrow.svg" alt="Down arrow">
+<div class='slides'>
+
+  <div><img src="img/bg.jpg"></div>
+  <div><img src="https://instagram.fsnc1-1.fna.fbcdn.net/t51.2885-15/e15/11265656_684419225036939_2040746_n.jpg"></div>
+  <div><img src="img/cat1.jpg"></div>
+  <div><img src="img/int1.jpg"></div>
+  <div><img src="img/ext.jpg"></div>
+  <div><img src="https://instagram.fsnc1-1.fna.fbcdn.net/t51.2885-15/e35/12479444_1680354422241616_1465608092_n.jpg"></div>
+
+  
+
+  
+
+
+
+
+</div>
+
+
     </header>
+
+
+
     
-		<div class="primary-content t-border">
+		<div class="primary-content">
 			<p class="intro">
-			Providing service to the highest of industry standard <br/>
-      Founded by Barber instructor Clyde Waller in 2003 <br/>
-     Offering appreticeships and career opportunities. <br/> <br/> 
+		
 			</p>
-			<a class="callout" href="#more">Find out more</a>
+			<!-- <a class="callout" href="#more"></a> -->
       
-      <div class="wildlife">
-        <h2>Check out all the Haircuts</h2>
-        <p>
-          Owned by young Local brothers who inherited it from their respected father. This place offers cuts from clippers to scissors. Clyde and Cero really know how to hold it down. find us on <a href="#mink">yelp</a>, <a href="#bears">G+</a>, and <a href="#eagles">Instagram</a>.
-        </p>
+      <div class="">
+        <!-- <h2>Check out all the Haircuts</h2> -->
+        
+
       </div><!-- End .wildlife -->
       
-			<a class="callout" href="#haircuts">See the cuts</a>
+			<a class="" href="#haircuts"></a>
 		</div><!-- End .primary-content -->
 
-		<div class="secondary-content t-border group" id='careers'> 
+		<div class="secondary-content group" id='careers'> 
       <div class="resorts">
-        <img src="img/ext.jpg" alt="Resort">
-        <h3>Career Opportunities</h3>
+
+        <h3></h3>
         <p>
-          Please contact Clyde for career and apprenticeship oppurtunities. There are currently booth rental spaces available, and more...
+          
         </p>
         <ul>
-          <li>Apprenticeships</li>
+          <!-- <li>Apprenticeships</li>
           <li>Full-time</li>
-          <li>Booth Rentals</li>
+          <li>Booth Rentals</li> -->
          
         </ul>		
       </div>
       
       <div class="tips">
-        <img src="img/int1.jpg" alt="Mountain Landscape">
-        <h3> Come in for your favorite cut!</h3>
+
+        <h3> </h3>
         <p>
-          Providing service to the highest of industry standard, 
-      Founded by Barber instructor Clyde Waller in 2003 
+     <!--      Providing service to the highest of industry standard, 
+      Founded by Barber instructor Clyde Waller in 2003  -->
         </p>
         <ol>
-          <li><a href="#contactnow">Book appointment</a></li>
+          <!-- <li><a href="#contactnow">Book appointment</a></li> -->
           
         </ol>
       </div>
@@ -103,8 +121,8 @@
 <table>
           <tb>
               <tr>
-                  <td><a href="https://plus.google.com/102107502571774783193/about?gl=us&hl=en" target="_blank"><i class="fa fa-google-plus fa-3x"></i></a></td>
-                  <td><a href="https://www.instagram.com/clyde_thebarber/" target="_blank"> <i class="fa fa-instagram fa-3x"></i></a></td>
+                  <td><a href="https://pl`us.google.com/102107502571774783193/about?gl=us&hl=en" target="_blank"><i class="fa fa-google-plus fa-3x"></i></a></td>
+                  <td><a href="http://web.stagram.com/location/58483472" target="_blank"> <i class="fa fa-instagram fa-3x"></i></a></td>
                   <td><a href="http://www.yelp.com/biz/executive-mens-salon-oakland" target="_blank"> <i class="fa fa-yelp fa-3x"></i></a></td>
               </tr>
               
@@ -114,10 +132,12 @@
 
 		</footer>
 
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="js/jquery.sticky.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
 <script src="js/script.js"></script>
+
 
 
 
@@ -142,6 +162,8 @@ $(document).ready(function(){
                        'background-color' : '#668B8B',
                        'text-shadow' : '1px 1px 8px #607890',
                        'z-index':'100'
+
+
                     });
 
     });
@@ -151,13 +173,13 @@ $(document).ready(function(){
     });
 
 
+    $('.slides').slick();
+
 $('.fa-bars').on('click', function(){
 
-  $('#header li a').addClass('mobile-menu');
+  $('#header li a').toggleClass('mobile-menu');
 
-});
-
-
+})
 });
 
 
