@@ -163,11 +163,11 @@ nav::after {
 .main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  border-bottom: 10px solid #668B8B;
+  border-bottom: 10px solid rgba(96, 22, 0, 0.901961);
 }
 
 .t-border {
-  border-top: 2px solid #668B8B;
+  border-top: 2px solid 10px solid rgba(96, 22, 0, 0.901961);
 }
 
 
@@ -186,7 +186,7 @@ nav::after {
   color: white;
   text-align: left;
   padding: 18% 24%;
-  border-top: 10px solid #668B8B;
+  border-top: 10px solid rgba(96, 22, 0, 0.901961);
   margin: 105px 0 60px;
   background: #434a52 url('../img/cat1.jpg') no-repeat center;
   background-size: cover;
@@ -405,7 +405,7 @@ margin-left: 1.32em;
   margin-bottom: 0px;
 }
 .main-footer {
-  border-top: 2px solid #F2F0DF;
+  border-top: 2px solid 2px solid rgba(96, 22, 0, 0.901961);
 }
 
 .active {
