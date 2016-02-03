@@ -153,13 +153,15 @@ $(document).ready(function(){
 
     $(".stick-head").on('sticky-end', function(){
         $(this).css('background-color', 'transparent');
+        $('#header li a').css({
+                       'color' : '#292929'
+                    });
     });
 
 
 
 $(".fa-bars").click(function(){
     $("#header li a").toggle(200);
-    
 
 });
 

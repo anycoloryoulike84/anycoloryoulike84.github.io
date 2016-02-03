@@ -198,6 +198,7 @@ nav::after {
 .arrow {
   width: 50px;
   margin-top: 3em;
+  color: black
 }
 
 
@@ -238,7 +239,7 @@ nav::after {
 
  .fa {
     float: left;
-     color: black;
+     color: #292929;
     cursor: pointer;
     visibility: hidden;
   }
@@ -375,7 +376,7 @@ margin-left: 1.32em;
   }
   #header li a {
 
-    color: #192919;
+    color: #090909;
     font-size: 1.36em;
     text-shadow: 2px 1px 13px white;
 
